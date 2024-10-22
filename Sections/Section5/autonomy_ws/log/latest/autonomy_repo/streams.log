@@ -1,0 +1,39 @@
+[0.022s] Invoking command in '/home/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/autonomy_ws/src/autonomy_repo -DCMAKE_INSTALL_PREFIX=/home/autonomy_ws/install/autonomy_repo
+[0.047s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.195s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.197s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.257s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.257s] -- Added test 'lint_cmake' to check CMake code style
+[0.258s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.259s] -- Added test 'xmllint' to check XML markup files
+[0.261s] -- Configuring done
+[0.268s] -- Generating done
+[0.269s] -- Build files have been written to: /home/autonomy_ws/build/autonomy_repo
+[0.272s] Invoked command in '/home/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/autonomy_ws/src/autonomy_repo -DCMAKE_INSTALL_PREFIX=/home/autonomy_ws/install/autonomy_repo
+[0.272s] Invoking command in '/home/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/autonomy_ws/build/autonomy_repo -- -j16 -l16
+[0.298s] Invoked command in '/home/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/autonomy_ws/build/autonomy_repo -- -j16 -l16
+[0.323s] Invoking command in '/home/autonomy_ws/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/autonomy_ws/build/autonomy_repo
+[0.328s] -- Install configuration: ""
+[0.329s] -- Execute custom install script
+[0.329s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/heading_controller.py
+[0.329s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/p3_plot.py
+[0.329s] -- Symlinking: /home/autonomy_ws/install/autonomy_repo/lib/autonomy_repo/navigator.py
+[0.335s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/launch/heading_control.launch.py
+[0.336s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/rviz/default.rviz
+[0.336s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/package_run_dependencies/autonomy_repo
+[0.336s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/parent_prefix_path/autonomy_repo
+[0.337s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.sh
+[0.337s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.dsv
+[0.337s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.sh
+[0.338s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/environment/path.dsv
+[0.338s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.bash
+[0.338s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.sh
+[0.338s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.zsh
+[0.339s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/local_setup.dsv
+[0.339s] -- Symlinking: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.dsv
+[0.345s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/ament_index/resource_index/packages/autonomy_repo
+[0.345s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig.cmake
+[0.346s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig-version.cmake
+[0.346s] -- Up-to-date symlink: /home/autonomy_ws/install/autonomy_repo/share/autonomy_repo/package.xml
+[0.348s] Invoked command in '/home/autonomy_ws/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/autonomy_ws/build/autonomy_repo
